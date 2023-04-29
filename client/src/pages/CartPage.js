@@ -5,7 +5,7 @@ import Total from "../components/CartPage/Total";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { SiVisa, SiPaypal, SiAmericanexpress } from "react-icons/si";
 import { FaCcMastercard } from "react-icons/fa";
-import { openModal } from "../store/modal";
+import { openModal, closemode } from "../store/modal";
 import { loadStripe } from "@stripe/stripe-js";
 const stripePromise = loadStripe(`${process.env.REACT_APP_PUBLIC_KEY}`);
 
