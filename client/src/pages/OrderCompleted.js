@@ -12,6 +12,8 @@ function OrderCompleted() {
   const [compOrder, setCompOrder] = useState("");
 
   const divBox = useRef("");
+  const diBox = useRef("");
+
   const history = useHistory();
   useEffect(() => {
     if (user) {
