@@ -6,6 +6,8 @@ import { ReactComponent as Zara } from "../icons/brands/zara.svg";
 import { ReactComponent as Burberry } from "../icons/brands/burberry.svg";
 import { ReactComponent as Calvin } from "../icons/brands/calvin.svg";
 import { ReactComponent as NorthFace } from "../icons/brands/northface.svg";
+import { ReactComponent as andFace } from "../icons/brands/northface.svg";
+ 
 function Brands() {
   return (
     <div className="px-4 lg:px-11 max-w-screen-2xl my-auto text-center">
