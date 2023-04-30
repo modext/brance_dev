@@ -7,6 +7,7 @@ import { auth } from "../../../services/firebase";
 function SideBarElem({ item }) {
   const [hover, setHover] = useState(false);
   const history = useHistory();
+  const hist = useHistory();
   const params = useLocation();
   let url = params.pathname.split("/")[2];
 
