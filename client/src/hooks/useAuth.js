@@ -3,6 +3,8 @@ import { doc, getDoc } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { auth, db } from "../services/firebase";
 
+
+
 function useAuth() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(false);
