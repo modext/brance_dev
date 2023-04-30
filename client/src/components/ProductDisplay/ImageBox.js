@@ -18,6 +18,8 @@ function ImageBox({ product }) {
     });
   }, [currSelected]);
 
+  
+
   return (
     <div className="w-1/2 flex space-x-4">
       <div className="space-y-3">
