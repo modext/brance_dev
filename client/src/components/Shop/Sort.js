@@ -7,6 +7,7 @@ function Sort({ liftDropdownItem }) {
   const [dropDown, setDropDown] = useState({
     open: false,
     clickedItem: "Recommended"
+    
   });
 
   return (
