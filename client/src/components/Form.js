@@ -20,6 +20,7 @@ function Form() {
       return { ...prev, [type]: val };
     });
   };
+  
   async function logIn() {
     let { user } = await signInWithEmailAndPassword(
       auth,
