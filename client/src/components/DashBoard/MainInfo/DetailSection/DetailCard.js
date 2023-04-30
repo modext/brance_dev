@@ -31,6 +31,8 @@ function DetailCard({ detail }) {
       return;
     }
   }
+
+  
   return (
     <div className="shadow-sm_dark hover:scale-101 transition-all duration-300 cursor-pointer mt-4 rounded-md flex justify-between items-start bg-white space-x-6 p-small">
       <div className="flex flex-col items-start space-y-4">
