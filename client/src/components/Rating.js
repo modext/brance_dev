@@ -11,6 +11,7 @@ function Rating({ reviews, big }) {
           className="w-3.5 h-3.5 fill-current text-[#FFC107]"
         />
       );
+      
     });
     let empty = [];
     if (rating % 1 === 0) {

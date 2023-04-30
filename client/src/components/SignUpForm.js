@@ -8,6 +8,7 @@ import { closeModal } from "../store/modal";
 import Input from "./DashBoard/MainInfo/NewProductAdd/Input";
 import { ImSpinner2 } from "react-icons/im";
 
+
 function SignUpForm({ asAdmin }) {
   const history = useHistory();
   const dispatch = useDispatch();
