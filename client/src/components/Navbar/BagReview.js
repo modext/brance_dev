@@ -39,6 +39,7 @@ function BagReview({ liked, addToProd }) {
         </>
       )}
     </div>
+    
   );
 }
 
