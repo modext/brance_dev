@@ -2,6 +2,8 @@ import React from "react";
 import { Redirect, Route } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 
+
+
 function RoutesProtected({ component: Component, ...rest }) {
   const [user, loading] = useAuth();
   return (
