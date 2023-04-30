@@ -15,6 +15,7 @@ function FeatureSec() {
               {" "}
               Choose from different payment methods
             </span>
+            
           </div>
           <div className="flex flex-col items-center -ml-24">
             <Truck className="w-16 h-16"></Truck>
