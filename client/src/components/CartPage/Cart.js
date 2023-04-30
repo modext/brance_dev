@@ -1,5 +1,6 @@
 import React from "react";
 import CartItems from "./CartItems";
+import Total from "./Total";
 
 function Cart({ shoppingBag }) {
   return (
