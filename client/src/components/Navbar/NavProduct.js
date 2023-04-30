@@ -12,6 +12,7 @@ function NavProduct({ liked, prod }) {
   const history = useHistory();
   const [qty, setQty] = useState("");
   const first = useRef(false);
+  const second = useRef(false);
   const getQuantity = (val) => {
     setQty(val);
   };
