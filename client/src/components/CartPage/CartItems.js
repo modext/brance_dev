@@ -5,6 +5,8 @@ import Qty from "../Qty";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 import { remove, update } from "../../store/addToBag";
 
+
+
 function WrapperItem({ children }) {
   return <div className="flex w-44 justify-between text-sm">{children}</div>;
 }
