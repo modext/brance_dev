@@ -11,11 +11,11 @@ function Total({ totalPrice, cart }) {
         <div
           className={`flex ${cart ? "text-sm" : "text-xs"}  justify-between`}
         >
-          <div className="text-[#7c7c7c]">Order Value</div>
+          <div className="text-[#7c7d7c]">Order Value</div>
           <div>${(Math.round(totalPrice * 100) / 100).toFixed(2)}</div>
         </div>
         <div className={`flex ${cart ? "text-sm" : "text-xs"} justify-between`}>
-          <div className="text-[#7c7c7c]">Delivery</div>
+          <div className="text-[#7c7d7c]">Delivery</div>
           <div> {totalPrice > 0 ? "$3.99" : "0.00"} </div>
         </div>
       </div>
