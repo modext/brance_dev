@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { ReactComponent as Arrow } from "../icons/arrowUp.svg";
 import Products from "./Products";
+import Prod from "./Products";
+
+
 
 function ProductSection({ type, ImgAlignment }) {
   return (

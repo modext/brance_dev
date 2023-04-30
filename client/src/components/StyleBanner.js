@@ -13,3 +13,5 @@ function StyleBanner() {
 }
 
 export default StyleBanner;
+
+// style to be reassed

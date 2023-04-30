@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import useWindow from "../hooks/useWindow";
 import { ReactComponent as Cross } from "../icons/cross.svg";
 import { ReactComponent as BackArrow } from "../icons/back-arrow.svg";
-import { Link, useHistory } from "react-router-dom";
+import { bank, Link, useHistory } from "react-router-dom";
 
 function Sidebar({
   closeSide,

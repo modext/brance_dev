@@ -1,6 +1,7 @@
 import { useHistory } from "react-router-dom";
 
 export default function Section() {
+  
   const history = useHistory();
   return (
     <div className="flex  max-h-[650px]">

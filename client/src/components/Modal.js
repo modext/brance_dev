@@ -12,6 +12,7 @@ function Modal({ asAdmin }) {
   const triggerModal = () => {
     dispatch(closeModal());
   };
+  
   useEffect(() => {
     asAdmin && switchToSignUp(true);
   }, [asAdmin]);

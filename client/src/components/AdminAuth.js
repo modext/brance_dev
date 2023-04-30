@@ -4,6 +4,7 @@ import useAuth from "../hooks/useAuth";
 import SignUpForm from "./SignUpForm";
 
 function AdminAuth() {
+  
   const [user, loading] = useAuth();
   return (
     loading &&

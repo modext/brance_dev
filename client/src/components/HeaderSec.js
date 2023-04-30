@@ -4,6 +4,7 @@ import useWindow from "../hooks/useWindow";
 import Nav from "./Nav";
 import Sidebar from "./Sidebar";
 
+
 let NavItems = {
   Men: {
     id: "#MEN",

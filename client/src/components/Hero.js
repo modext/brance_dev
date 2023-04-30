@@ -4,6 +4,7 @@ import gsap from "gsap";
 import useWindow from "../hooks/useWindow";
 import { useHistory } from "react-router-dom";
 
+
 function Hero({ modalOpen }) {
   const timeline = useRef(gsap.timeline());
   const [width] = useWindow();
