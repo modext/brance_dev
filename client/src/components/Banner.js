@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Banner() {
     return (
         <div className="animate-slide inline-flex w-[5000px]   bg-white relative  -left-1 items-center border-4 border-[#FF385C]">
