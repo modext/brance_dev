@@ -5,6 +5,7 @@ import { ImSpinner2 } from "react-icons/im";
 import { useHistory } from "react-router-dom";
 import { db } from "../services/firebase";
 
+
 import Product from "./Product";
 
 function Products({ type }) {

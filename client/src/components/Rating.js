@@ -1,6 +1,7 @@
 import React from "react";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
 
+
 function Rating({ reviews, big }) {
   function renderStars(rating, big) {
     let totalStars = 5;
@@ -11,7 +12,7 @@ function Rating({ reviews, big }) {
           className="w-3.5 h-3.5 fill-current text-[#FFC107]"
         />
       );
-      
+
     });
     let empty = [];
     if (rating % 1 === 0) {
