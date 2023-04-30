@@ -8,6 +8,7 @@ import { useHistory } from "react-router-dom";
 function OrderItem({ item }) {
   const [review, setSideRev] = useState(false);
   const history = useHistory();
+  const hist = useHistory();
 
   return (
     <>
